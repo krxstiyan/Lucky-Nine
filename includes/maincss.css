@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(206, 200, 200);
+}
+
+.btnspc{
+    margin:20px 10px;
+}
+
+
+.wagerField {
+    width: 60%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.plyrdlr{
+    margin: 4.5px 8px;
+}
+
+.pad {
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.val{
+    margin-top: 30px;
+}
+
+.plpad{
+    margin-left: 20%;
+    margin-top: 10%;
+}

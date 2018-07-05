@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lucky Nine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="includes/bootswatch.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="includes/maincss.css" />
+    <script src="includes/main.js"></script>
+</head>
+<body>
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class =  "col-sm-2"></div>
+            <div class =  "col-sm-8">
+                <div class = "row pad">
+                    <h5 class = "plyrdlr">Dealer:</h5>
+                    <h4 id = "dealerCash">$250000</h4>
+                </div>
+                <div class = "row justify-content-center val">
+                        <h2 id = "dlrFrstVal"></h2>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <h2 id = "dlrSndVal"></h2>
+                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <h2 id = "dlrTrdVal"></h2>
+                </div>
+                <div class = "row pad">
+                    <div class = "row" id = "dlrHnd"></div>
+                </div>
+                <div class = "row plpad">
+                        <h5 class = "plyrdlr">Player:</h5>
+                        <h4 id = "playerCash">$250000</h4>
+                </div>
+                <div class = "row justify-content-center val">
+                        <h2 id = "plrFrstVal"></h2>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <h2 id = "plrSndVal"></h2>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <h2 id = "plrTrdVal"></h2>
+                </div>
+                <div class = "row pad">
+                        <div class = "row" id = "plrHnd"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <input id = "wager" class = "form-control wagerField" type = "text" placeholder="Amount" >
+                </div>
+                <div class = "row justify-content-center">
+                    <button type = "button" id = "roll" class = "btn btn-primary btnspc">Roll</button>
+                    <button type = "button" id = "hold" class = "btn btn-primary btnspc" disabled = "true">Hold</button>
+                    <button type = "button" id = "reset" class = "btn btn-primary btnspc" disabled = "true">Clear</button>
+                </div>
+            </div> 
+            <div class =  "col-sm-2"></div>
+        </div>
+    </div>
+</body>
+</html>
